@@ -3,9 +3,9 @@
 > Data Analytics Capstone Project: taxi fleet productivity and corporate eVoucher control (data from October–December 2023).
 
 ## 1. Project Overview
-Blue Bird is a conventional taxi operator with a physical fleet and permanent drivers, so vehicles and drivers are **fixed costs**. Every hour on duty without a passenger is cost without revenue. Meanwhile, the Finance teams of several corporate clients have questioned the transparency of **eVoucher** usage in the *Corporate Solution* service.
+Blue Bird is a conventional taxi operator with a physical fleet and permanent drivers, so vehicles and drivers are **fixed costs**. Every hour on duty without a passenger is cost without revenue. 
 
-This project analyzes six operational tables (trips, requests, shifts, drivers, pools, corporate clients) to answer one big question: **why are many Blue Bird drivers idle while some customers cannot get a taxi?** The business focus is twofold: **Fleet Optimization** (trip rate and idle time) and **B2B Fraud Mitigation** (eVoucher usage patterns).
+This project analyzes six operational tables (trips, requests, shifts, drivers, pools, corporate clients) to answer one big question: **why are many Blue Bird drivers idle while some customers cannot get a taxi?** The business focus is twofold: **Fleet Optimization** (trip rate and idle time)
 
 Key Objectives:
 - Objective 1: Ensure the data is reliable through cleaning and validation (service categories, taximeter data, keys and relationships between tables) without altering the original data.
@@ -99,11 +99,11 @@ KPI baselines come from this data, while target values are set by management. Al
 | 4 | **Set a baseline and target for trip rate**, monitor weekly by pool and zone; do not use the 6-trip flag as a KPI | Trips per driver-day (1.26); idle share (~90%) | Medium | Operations |
 | 5 | **Evaluate pools by zone-adjusted trip rate** | Gap in trips per shift versus each pool's expected value | Medium | Operations |
 | 6 | **Review the number of afternoon shifts against afternoon demand** | Afternoon trips per shift (1.01 vs 1.31 morning) | Low–Medium | Operations |
-| 7 | **Add meter data validation** at input and require a booking reference for eVoucher use | 2.2% of trips excluded; 0.38% unreliable distance | Low–Medium | Finance |
+
 
 **Limitations:** only three months of data; results are associative; failed requests carry no driver or company information and Street Hail demand is not visible; the definition of "unusual time" and the 500 km / 1 km distance thresholds are analysis assumptions; the 6-trip target in `ritase_target_met` is not defined in the brief.
 
 ## 6. Contact
-- Name: 
-- Email:
-- Linkedin:
+- Name: Emily Vitasya Haloho
+- Email: emilyvitasya2016@gmail.com
+
